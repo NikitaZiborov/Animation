@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    width: 1280px;
+    margin:0 auto;
+    font-family: "Exo";
+    color: #3E3E3E;
+}
+.logo{
+    width: 155px;
+    height: 42px;
+    margin-left: 32px;
+}
+.page-header{
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.page-header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+.page-header ul li{
+    margin-right: 36px;
+}
+.page-header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.main-page{
+    background-color: #FCFCFC;
+}
+.header-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 54px;
+    width: 493px;
+    margin-bottom: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 138px;
+}
+.left-side{
+    margin-top: 111.2px;
+}
+.right-side{
+   position: relative;
+   margin-top:8.54px;
+   margin-bottom: 80px;
+}
+.below-header-text{
+    width: 529px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 63px;
+}
+
+.button-learn-more{
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    background: #E39F12;
+    font-family: 'Exo';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border:transparent;
+    background: #81B4DA;
+    margin-right: 19px;
+}
+.circle-active {
+    background: #3C5186;
+}
+
+.slider-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-slide-two-background{
+    width: 480.91px;
+    height: 458.46px;
+    background-color: linear-gradient(37.35deg, rgba(255, 255, 255, 0.6) 13.63%, rgba(248, 251, 253, 0.6) 44.54%, rgba(230, 239, 249, 0.6) 87.86%, rgba(226, 236, 248, 0.6) 96.01%); 
+}
+
+.baner-element{
+    position: absolute;
+}
+
+.element1{
+    top: 350px;
+    left: 197.97px;
+    transition: all 1s ;
+}
+
+.element2{
+    top: 400px;
+    left: 222.08;
+    transition: all 1s ;
+}
+
+.element3{
+    top: 400px;
+    left: 326.2px;
+    transition: all 1s ;
+}
+
+.element4{
+    top: 400px;
+    left: 123.4px;
+    transition: all 1s ;
+}
+
+.element5{
+    top: 400px;
+    left: -50px;
+    transition: all 1s ;
+}
+
+.element6{
+    top: 300px;
+    left: -250px;
+    transition: all 1s ;
+}
+
+.element7{
+    top: 500px;
+    left: -50px;
+    transition: all 1s ;
+}

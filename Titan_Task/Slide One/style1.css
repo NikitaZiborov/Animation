@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    width: 1280px;
+    margin:0 auto;
+    font-family: "Exo";
+    color: #3E3E3E;
+}
+.logo{
+    width: 155px;
+    height: 42px;
+    margin-left: 32px;
+}
+.page-header{
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.page-header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+.page-header ul li{
+    margin-right: 36px;
+}
+.page-header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.main-page{
+    background-color: #FCFCFC;
+}
+.header-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 54px;
+    width: 493px;
+    margin-bottom: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+.left-side{
+    margin-top: 120px;
+    margin-right: 39.51px;
+}
+.right-side{
+   position: relative;
+   margin-top:17.53px;
+}
+.below-header-text{
+    width: 529px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 64px;
+}
+.button-learn-more{
+    width: 186px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    background: #E39F12;
+    font-family: 'Exo';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border:transparent;
+    background: #81B4DA;
+    margin-right: 19px;
+}
+.circle-active {
+    background: #3C5186;
+}
+
+.photo-slide-one-background{
+    width: 530px;
+    height: 529px;
+    background-color: linear-gradient(37.35deg, rgba(255, 255, 255, 0.6) 13.63%, rgba(248, 251, 253, 0.6) 44.54%, rgba(230, 239, 249, 0.6) 87.86%, rgba(226, 236, 248, 0.6) 96.01%); 
+}
+
+.baner-element{
+    position: absolute;
+}
+.element1{
+    right: 7.15px;
+    top: 81.5px;
+}
+.element2{
+    bottom: 100px;
+    left: -50px;
+    transition: all 1s ;
+}
+.element3{
+    left: 0px;
+    top: 340;
+    transition: all 1s;
+}
+.element4{
+    right: 40px;
+    top: 360px;
+    transition: all 1s;
+}
+.element5{
+    left: 100px;
+    top: 370px;
+    transition: all 1s;
+}
+.element6{
+    right: 0px;
+    top: 500px;
+    transition: all 3s;
+}
+.element7{
+    right: 300px;
+    top: 400px;
+    transition: all 1s;
+}
+.element8{
+    top: 450px;
+    right: 450px;
+    transition: all 3s;
+}
+.element9{
+    top: 500px;
+    left: 180px;
+    transition: all 3s;
+}
+.slider-nav{
+    display: flex;
+    justify-content: center;
+}
